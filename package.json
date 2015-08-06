@@ -1,0 +1,35 @@
+{
+  "name": "jstransformer-transparency",
+  "version": "0.0.0",
+  "description": "transparency support for JSTransformers.",
+  "keywords": [
+    "binding",
+    "engine",
+    "fast",
+    "html",
+    "jquery",
+    "js",
+    "jstransformer",
+    "template",
+    "transform",
+    "transparency"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "cheerio": "^0.19.0",
+    "test-jstransformer": "^1.0.0"
+  },
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "repository": "jstransformers/jstransformer-transparency",
+  "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
+  "license": "MIT",
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "transparency": "^0.10.0"
+  }
+}
