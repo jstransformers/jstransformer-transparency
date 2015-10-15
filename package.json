@@ -30,6 +30,6 @@
   "license": "MIT",
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "transparency": "^0.10.0"
+    "transparency": "^1.0.0"
   }
 }
