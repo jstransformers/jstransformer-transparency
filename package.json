@@ -1,5 +1,5 @@
 {
-  "name": "jstransformer-foo",
+  "name": "jstransformer-transparency",
   "version": "0.0.1",
   "description": "Transparency support for JSTransformers.",
   "keywords": [
