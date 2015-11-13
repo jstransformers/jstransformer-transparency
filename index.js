@@ -1,13 +1,23 @@
 'use strict';
 
 var transparency = require('transparency');
-var extend = require('extend-shallow');
+var jsdom = require('jsdom');
 
 exports.name = 'transparency';
-exports.inputFormats = ['transparency'];
 exports.outputFormat = 'html';
 
-exports.render = function (str, options, locals) {
-  var data = extend({}, options, locals);
-  return transparency.render(str, data);
+exports.compileAsync = function (str, options) {
+  return new Promise(function (resolve, reject) {
+    jsdom.env(str, function (err, window) {
+      if (err) {
+        reject(err);
+      }
+      else {
+        resolve(function (locals) {
+          var out = transparency.render(window.document.body, locals);
+          return out.innerHTML;
+        });
+      }
+    });
+  });
 };
