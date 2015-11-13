@@ -1,6 +1,6 @@
 # jstransformer-transparency
 
-[Transparency](http://leonidas.github.io/transparency/) support for [JSTransformers][jstransformers-url].
+[Transparency](http://leonidas.github.io/transparency/) support for [JSTransformers](https://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-transparency/master.svg)](https://travis-ci.org/jstransformers/jstransformer-transparency)
 [![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-transparency/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-transparency?branch=master)
