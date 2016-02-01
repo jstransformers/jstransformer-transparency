@@ -9,7 +9,7 @@
     "index.js"
   ],
   "dependencies": {
-    "jsdom": "^7.0.2",
+    "jsdom": "^8.0.2",
     "transparency": "^1.0.0"
   },
   "devDependencies": {
