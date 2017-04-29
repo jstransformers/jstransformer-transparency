@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "jsdom": "^9.2.1",
+    "jsdom": "^10.0.0",
     "transparency": "^1.0.0"
   },
   "name": "jstransformer-transparency",
@@ -15,7 +15,7 @@
   ],
   "devDependencies": {
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.17.1"
+    "xo": "^0.18.1"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
