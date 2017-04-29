@@ -1,5 +1,7 @@
 # jstransformer-transparency
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-transparency.svg)](https://greenkeeper.io/)
+
 [Transparency](http://leonidas.github.io/transparency/) support for [JSTransformers](https://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-transparency/master.svg)](https://travis-ci.org/jstransformers/jstransformer-transparency)
