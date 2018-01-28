@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "jsdom": "^10.0.0",
+    "extend-shallow": "^3.0.2",
+    "jsdom": "^11.6.1",
     "transparency": "^1.0.0"
   },
   "name": "jstransformer-transparency",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Transparency support for JSTransformers.",
   "keywords": [
     "jstransformer"
