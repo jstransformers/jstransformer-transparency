@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "extend-shallow": "^3.0.2",
-    "jsdom": "^11.6.1",
+    "jsdom": "^16.6.0",
     "transparency": "^1.0.0"
   },
   "name": "jstransformer-transparency",
